@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body [ngClass]="{'dark':darkMode}">
+
+  <div>
+    <mat-toolbar [color]="x">
+      <mat-toolbar-row>
+        <span>My App</span>
+        <span class="example-spacer"></span>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+          <mat-icon>meappStylenu</mat-icon>
+        </button>
+        <p class="mode"><mat-slide-toggle (click)="switchdark()"></mat-slide-toggle>Dark Mode</p>
+      </mat-toolbar-row>
+    </mat-toolbar>
+  </div>
+  <div class="scrollbar">
+
+    <div class="scroll">
+      <app-scrollbar #scroll></app-scrollbar>
+    </div>
+
+    <div class="middle">
+      <div class="main">
+        <div class="text">
+          <h2>JHON WICK CHAPTER 4</h2>
+        </div>
+        <div class="images">
+          <div class="one">
+            <div class="img">
+              <img src="../../../assets/images.jpeg" alt="" width="200px" height="200px">
+            </div>
+            <div class="img">
+              <img src="../../../assets/ms-dhoni-ipl-finisher.jpg" alt=""  width="200px" height="200px">
+            </div>
+            <div class="img">
+              <img src="../../../assets/josh-nuttall-xl2piFfdzyA-unsplash.jpg" alt=""  width="200px" height="200px">
+            </div>
+          </div>
+          <div class="one">
+            <div class="img">
+              <img src="../../../assets/samuel-regan-asante-GQsqbiyCpAY-unsplash.jpg" alt=""  width="200px" height="200px">
+            </div>
+            <div class="img">
+              <img src="../../../assets/wp1867319.jpg" alt="" width="200px" height="200px">
+            </div>
+            <div class="img">
+              <img src="../../../assets/karsten-wurth-7BjhtdogU3A-unsplash.jpg" alt=""  width="200px" height="200px">
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <app-footer #foot></app-footer>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+h3{
+    color: white;
+    margin-left: 30px;
+}
+
+.light{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.738);
+}
+
+.dark{
+    color:rgba(240, 255, 255, 0.679);
+    background-color:rgba(0, 0, 0, 0.800);
+}
+
+.scrollbar{
+    display:flex;
+}
+
+.scrolldark{
+
+    background-color: black;
+    color: white;
+}
+
+.mat-toolbar.mat-accent{
+
+    background-color: rgba(0, 0, 0, 0.941);
+    color: whitesmoke;
+}
+
+.mat-toolbar-row{
+    justify-content: space-around;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height:91vh;
+}
+.images{
+    position: relative;
+}
+
+
+
+.img img{
+    width: 200px;
+    height:200px;
+    margin: 10px;
+  /* position: absolute; */
+  
+    opacity: 0.7;
+}
+
+.img img:hover{
+   
+    transform: scale(1.1,1.1);
+    opacity: 1;
+}
+.one{
+    display: flex;
+}
+
+.text{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    
+}
+
+.text h2{
+    font-size:xx-large;
+}

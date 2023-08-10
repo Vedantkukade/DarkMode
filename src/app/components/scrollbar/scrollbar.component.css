@@ -1,0 +1,24 @@
+:host{
+  display: block;
+}
+
+.example-viewport {
+    height: 91.4vh;
+    width: 200px;
+    /* border: 1px solid black; */
+   border:none;
+
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .example-dt {
+    height: 30px;
+    font-weight: bold;
+  }
+  
+  .example-dd {
+    height: 30px;
+  }
+
+ 
+
